@@ -1,6 +1,7 @@
 # OVOV::Calculator
+[![Build Status](https://travis-ci.org/honzahovorka/ovov-calculator.svg?branch=master)](https://travis-ci.org/honzahovorka/ovov-calculator)
 
-TODO: Write a gem description
+Provide calculators for [OVOV](http://www.ovov.cz) disciplines
 
 ## Installation
 
@@ -22,7 +23,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/ovov-calculator/fork )
+1. Fork it ( https://github.com/honzahovorka/ovov-calculator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
