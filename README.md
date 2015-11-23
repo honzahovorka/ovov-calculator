@@ -1,7 +1,7 @@
 # OVOV::Calculator
-[![Build Status](https://travis-ci.org/honzahovorka/ovov-calculator.svg?branch=master)](https://travis-ci.org/honzahovorka/ovov-calculator)
+[![Build Status](https://travis-ci.org/honzahovorka/ovov-calculator.svg?branch=master)](https://travis-ci.org/honzahovorka/ovov-calculator) [![Code Climate](https://codeclimate.com/github/honzahovorka/ovov-calculator/badges/gpa.svg)](https://codeclimate.com/github/honzahovorka/ovov-calculator)
 
-Provide calculators for [OVOV](http://www.ovov.cz) disciplines
+Provide calculators for [OVOV](http://www.ovov.cz) disciplines extracted from original Excel
 
 ## Installation
 
@@ -19,7 +19,40 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+require 'calculator'
+
+# pass performance to initialize
+calc = OVOV::Calculator::BallThrow.new(200)
+puts calc.calculate # => 2610.0
+
+# pass performance using attr_accessor
+calc = OVOV::Calculator::Swimming.new
+calc.performance = 100
+puts calc.calculate # => 510.0
+
+# pass performance to run calculator
+calc = OVOV::Calculator::Run.new
+calc.performance = '3:00'
+puts calc.calculate # => 1050.0
+```
+
+All calculators
+
+``` ruby
+OVOV::Calculator::BallThrow
+OVOV::Calculator::Dribbling
+OVOV::Calculator::JumpRope
+OVOV::Calculator::LongJump
+OVOV::Calculator::MedicineBall
+OVOV::Calculator::PullUp
+OVOV::Calculator::PushUp
+OVOV::Calculator::Run
+OVOV::Calculator::SitUp
+OVOV::Calculator::Sprint
+OVOV::Calculator::Swimming
+OVOV::Calculator::TripleJump
+```
 
 ## Contributing
 
