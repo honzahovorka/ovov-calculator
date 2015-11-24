@@ -1,5 +1,5 @@
 # OVOV::Calculator
-[![Build Status](https://travis-ci.org/honzahovorka/ovov-calculator.svg?branch=master)](https://travis-ci.org/honzahovorka/ovov-calculator) [![Code Climate](https://codeclimate.com/github/honzahovorka/ovov-calculator/badges/gpa.svg)](https://codeclimate.com/github/honzahovorka/ovov-calculator)
+[![Build Status](https://travis-ci.org/honzahovorka/ovov-calculator.svg?branch=master)](https://travis-ci.org/honzahovorka/ovov-calculator) [![Code Climate](https://codeclimate.com/github/honzahovorka/ovov-calculator/badges/gpa.svg)](https://codeclimate.com/github/honzahovorka/ovov-calculator) [![Coverage Status](https://coveralls.io/repos/honzahovorka/ovov-calculator/badge.svg?branch=master&service=github)](https://coveralls.io/github/honzahovorka/ovov-calculator?branch=master)
 
 Provide calculators for [OVOV](http://www.ovov.cz) disciplines extracted from original Excel
 
